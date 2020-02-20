@@ -1,0 +1,33 @@
+#formulario{
+	text-align: center;
+}
+
+.btn{
+	font-family: arial; /*Estilo da fonte*/
+	font-size: 14px; /*Tamamho da fonte*/
+	text-transform: uppercase; /*Deixa a palavra toda em MAIUSCULA*/
+	font-weight: 700; /*Peso da fonte, deixa em NEGRITO*/
+	border:none; /*Remove todas as bordas*/
+	padding: 10px;
+	cursor: pointer; /*Quando passa o mouse por cima muda o cursor*/
+	display: inline-block;
+	text-decoration: none; /*Tira o sublinhado do texto*/
+}
+
+.btn-green{
+		  background: green; /*Cor de fundo*/
+		  color: #fff; /*Cor do texto*/
+		  box-shadow: 0 5px 0 #006000;
+}
+
+.btn-green:hover{ /*hover: quando passa o mouse por cima*/
+		  background: #006000; /*Cor de fundo*/
+		  color: #fff; /*Cor do texto*/
+		  box-shadow: 0 5px 0 #003f00;
+}
+
+.btn-green:active{ /*active: quando clica no botão*/
+		  position: relative;
+		  top: 5px;	
+		  box-shadow: none;
+}
